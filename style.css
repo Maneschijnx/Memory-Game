@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: lightgray;
+}
+
+div{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.memory-wrapper{
+    display: flex;
+    flex-wrap:  wrap;
+    height: 300px;
+}
+
+.cards{
+    height: 50px;
+    border: 2px solid white;
+}
+
+
+footer{
+    width: 100vw;
+    height: 25px;
+    background: linear-gradient(rgb(219, 200, 213), rgb(223, 166, 187));
+}
+
+.result-show{
+    text-align: center;
+    color: green;
+}
+
+.cards-found{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
